@@ -123,7 +123,7 @@ const config = {
     // Placeholder text for the letter input
     placeholder: {
       default: `Now, bacaa pesan lucukk yg aku buatin ini untuk kamuu smoga moood kamu makin baik`,
-      emptyInput: "Jangan lupa untuk tersenyum manis sebelum mengklik):",
+      emptyInput: "sayangg, pas aku coba ngerangkai kata buat nunjukinn betapa dalamnya perasaanku ke kamu, aku sadar kalau bahasa yang kita pake itu rasanya terbatas. gaada kamus yang cukup kaya, ga ada puisi yang cukup indah, n gaada metafora yang cukup tepat buat benar-benar nangkapp besarnya cintaa yang kurasain. cintaku ke kamu bukan cuma sekedar kata sifat, bukan juga sekedar emosi sesaat. kamu itu bagian dari diriku yang paling berharga, kamu juga alasan kenapa aku percaya sama keajaiban, n sama kekuatan cinta yang mampu naklukin segalanya. aku mencintaimu lebih dari kata-kata yang bisa kuucapkan, lebih dari waktu yang bisa kuhitung, dan lebih dari yang pernah kubayangkan mungkin. and if u know sayang, dari awal cintaku gapernah sedikitpun berkurang bahkan malah bertambah sampai sekarang. so i wish kita bakal selalu bersama kedepannya apapun rintangannya sampai ke jenjang rumah tangga yang sebenarnya, i love love love u very much:",
       success: "Thank you for the message my love!",
       error: "Failed to send the message. try it again!",
     },
@@ -146,7 +146,7 @@ const config = {
   closingPage: {
     // Final message displayed on the closing page
     message:
-      "Thank you for contributing to this project. I love you with all my heart",
+      "sayangg, pas aku coba ngerangkai kata buat nunjukinn betapa dalamnya perasaanku ke kamu, aku sadar kalau bahasa yang kita pake itu rasanya terbatas. gaada kamus yang cukup kaya, ga ada puisi yang cukup indah, n gaada metafora yang cukup tepat buat benar-benar nangkapp besarnya cintaa yang kurasain. cintaku ke kamu bukan cuma sekedar kata sifat, bukan juga sekedar emosi sesaat. kamu itu bagian dari diriku yang paling berharga, kamu juga alasan kenapa aku percaya sama keajaiban, n sama kekuatan cinta yang mampu naklukin segalanya. aku mencintaimu lebih dari kata-kata yang bisa kuucapkan, lebih dari waktu yang bisa kuhitung, dan lebih dari yang pernah kubayangkan mungkin. and if u know sayang, dari awal cintaku gapernah sedikitpun berkurang bahkan malah bertambah sampai sekarang. so i wish kita bakal selalu bersama kedepannya apapun rintangannya sampai ke jenjang rumah tangga yang sebenarnya, i love love love u very much",
     // GIF displayed on the closing page
     gifName: "closing.gif", // Name of the GIF file in `src/assets/gifs`
     style: "w-44", // Tailwind CSS class for styling the GIF
