@@ -6,15 +6,15 @@ const config = {
     slides: [
       [
         "Hey my love",
-        "I made something for you for valentine's day 💖",
+        "I made something untuk pacarku yg moodnya kurang baik hari ini 💖",
         // If you set `sentencePerSlide` to 2, the next text won't be visible
         "Surprise!",
       ],
       [
-        "This is not a regular website",
-        "Coz I want you to do the work HAHAHA😈",
+        "Aku buatin krna aku masih sayang banget sama kamu",
+        "Smoga kamu suka dan engga nakalin aku yaa xixii",
       ],
-      ["I want to know how well you know me by now", "So enjoy!"],
+      ["jangan lupa untuk inget aku klo aku itu cinta banget sama kamu", "So enjoy cyg!"],
       // You can add more slides or delete slides as needed
     ],
   },
@@ -35,36 +35,36 @@ const config = {
     questions: [
       {
         id: 1, // Unique ID for the question
-        title: "What is my favorite food?",
-        description: "I always mention this food",
-        correctAnswer: "duck", // Correct answer value (must match one of the options' `value`)
+        title: "apa makanan kesukaan aku?",
+        description: "masa kamu gatau sih yg pernah kamu buatin",
+        correctAnswer: "nasgor", // Correct answer value (must match one of the options' `value`)
         options: [
-          { value: "duck", label: "Fried Duck" },
-          { value: "dumplings", label: "Chinese Dumplings" },
-          { value: "indomie", label: "Indomie Noodles" },
+          { value: "mie", label: "mie ayam" },
+          { value: "nasgor", label: "Naci Goreng" },
+          { value: "kebab", label: "kebab" },
           { value: "bakso", label: "Bakso" },
         ],
       },
       {
         id: 2,
-        title: "What is my favorite drink?",
-        description: "I buy this almost everyday",
-        correctAnswer: "tea",
+        title: "berapa kali kita date dari bulan 11?",
+        description: "klo gatau nakal",
+        correctAnswer: "10",
         options: [
-          { value: "latte", label: "Coffee Latte" },
-          { value: "cappucino", label: "Caramel Frappucino" },
-          { value: "tea", label: "Sweet Iced Tea" },
-          { value: "coke", label: "Coca Cola" },
+          { value: "10", label: "10" },
+          { value: "7", label: "7" },
+          { value: "8", label: "8" },
+          { value: "9", label: "9" },
         ],
       },
       {
         id: 3,
-        title: "When is my Birthday?",
-        description: "Don't make the same mistake twice:D",
-        correctAnswer: "sept-14",
+        title: "ulang tahun aku?",
+        description: "aku aja tau lahir kamu masa kami gatau",
+        correctAnswer: "juni-12",
         options: [
-          { value: "sept-12", label: "September 12th" },
-          { value: "oct-16", label: "October 16th" },
+          { value: "juni-12", label: "Juni 12th" },
+          { value: "juni-06", label: "Juni 06th" },
           { value: "august-14", label: "August 14th" },
           { value: "sept-14", label: "September 14th" },
         ],
@@ -87,7 +87,7 @@ const config = {
       },
       {
         check: (score) => score === 1, // If score is exactly 1, this GIF will be shown
-        heading: "It's okay, I know you tried so hard",
+        heading: "It's okay,cayang kamu udh brusaha nebakk",
         gifName: "gif2.gif",
         style: "w-44",
       },
@@ -104,16 +104,16 @@ const config = {
   drawingPage: {
     // Messages displayed on the drawing page
     messages: [
-      "Can you draw me a flower",
-      "Give me another flower",
-      "Draw me one last flower",
+      "Gambarin aku bunga lucuk dan ss ke wa",
+      "Gambar love",
+      "Gambar random apa aja yg lucuk",
     ],
     // Colors available for drawing
     COLORS: ["#000000", "#FF7043", "#66BB6A", "#42A5F5", "#FFEE58"],
     // Text for the submit button
     text: {
-      submitText: "Submit",
-      finalText: "Thank you baby ❤️",
+      submitText: "Kirim",
+      finalText: "Maacih cyg kuu❤️",
       loading: "Sending...",
     },
   },
@@ -122,8 +122,8 @@ const config = {
   letterPage: {
     // Placeholder text for the letter input
     placeholder: {
-      default: `Now, I want you to write me a letter :) Once you click "Send Message" I'll be able to see it hehe`,
-      emptyInput: "You have to write me something first!! ):",
+      default: `Now, bacaa pesan lucukk yg aku buatin ini untuk kamuu smoga moood kamu makin baik`,
+      emptyInput: "Jangan lupa untuk tersenyum manis sebelum mengklik):",
       success: "Thank you for the message my love!",
       error: "Failed to send the message. try it again!",
     },
